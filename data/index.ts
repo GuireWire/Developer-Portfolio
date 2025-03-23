@@ -18,7 +18,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I'm flexible with any time zone communication",
+        title: "I'm flexible with all timezones globally",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -72,6 +72,24 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: "True North - E-Commerce Web Application",
+        des: "An Irish clothing brand's e-commerce website built with Next.js, utilizing Wix's Headless CMS and Stripe.",
+        img: "/p0.svg",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg",, "/js.svg", "/wix.svg", "/stripe.svg" ],
+        link: "/truenorth.ie",
+        href: "https://www.truenorth.ie/",
+    },
+    {
+        id: 2,
+        title: "Mooju - 3D Interactive Landing Page",
+        des: "A dynamic 3D landing page for the Mooju milk brand, featuring immersive product showcases.",
+        img: "/p02.svg",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/js.svg", "/gsap.svg", "/prismic.svg", "/figma.svg", "/blender.svg" ],
+        link: "/mooju.xyz",
+        href: "https://mooju.xyz/",
+    },
+    {
+        id: 3,
         title: "Buy Me A Coffee - Web3 Edition",
         des: "Support creators in Web3 with 'Buy Me A Coffee' on zkSync, using ETH and LINK for secure payments.",
         img: "/p1.svg",
@@ -80,31 +98,13 @@ export const projects = [
         href: "https://buymeacoffee.store/",
     },
     {
-        id: 2,
+        id: 4,
         title: "MintMarine - The Digital Reef of NFTs",
         des: "Explore MintMarine’s Digital Reef of NFTs. Buy, sell, and discover unique treasures on iOS and Android.",
         img: "/p2.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/expo.svg", "/js.svg"],
         link: "/mintmarine.xyz",
         href: "https://mintmarine.xyz/",
-    },
-    {
-        id: 3,
-        title: "zkTitans - NFT Battle Card Game",
-        des: "Battle in zkTitans, a Web3 NFT card game on zkSync. Connect your wallet and use NFTs to defeat your opponents.",
-        img: "/p3.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.svg", "/py.svg", "/sol.svg", "/Vyper.svg", "/moccasin.svg"],
-        link: "/zktitans.site",
-        href: "https://zktitans.site/",
-    },
-    {
-        id: 4,
-        title: "Raffler - Smart Contract Lottery dApp",
-        des: "Raffler is a Web3 lottery tool that lets users create raffles, fund them, and earn profits as tickets sell.",
-        img: "/p4.svg",
-        iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/Vyper.svg", "/moccasin.svg"],
-        link: "/raffler.io",
-        href: "https://github.com/GuireWire/Full-Stack-Raffler-Lottery-System",
     },
 ];
 

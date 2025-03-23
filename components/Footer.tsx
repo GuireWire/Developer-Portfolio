@@ -14,7 +14,7 @@ const Footer = () => {
         <p className="text-orange-400 md:mt-10 my-5 text-center">
           Get in touch, and let&apos;s make it happen.
         </p>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=guire24rumble@gmail.com" 
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anthonymaguire24@gmail.com" 
         target="_blank" rel="noreferrer"
         >
           <MagicButton
